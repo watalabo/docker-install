@@ -1,3 +1,7 @@
+#!/bin/bash
+
+# have been worked on ubuntu 18.04
+
 sudo apt update ; sudo apt upgrade -y ; sudo apt install -y make
 curl -sSL https://get.docker.com/ | sh
 sudo usermod -aG docker ubuntu
